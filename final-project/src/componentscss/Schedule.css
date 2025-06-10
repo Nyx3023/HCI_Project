@@ -1,0 +1,60 @@
+/*Schedule css*/
+.Parent-sched {
+    display: flex;
+    min-height: 100vh;
+    background-image: url('../assets/cvsubg.jpg');
+    background-size: cover;
+    flex-direction: column;
+  }
+  @media (max-width: 768px) {
+    .Parent-sched {
+        display: flex;
+        flex-direction: column;  
+    }
+    .day-grid{
+      height: auto;
+      width: auto;
+    }
+}
+  
+
+.Calendar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  margin-top: auto;
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); 
+  }
+
+.day-box {
+text-align: center;
+font-weight: bold;
+background-color: #a2d396; /* Light gray for day headers */
+}
+
+.days-box {
+text-align: center;
+padding: 10px;
+background-color: #fff; /* Default white */
+}
+
+.scheduled-day {
+background-color: rgb(241, 241, 170); /* Fallback for unsupported browsers */
+background-image: url('./assets/yellow-bg.png'); /* Replace with your image */
+background-size: cover;
+background-position: center;
+color: black; /* Text remains visible */
+}
+
+.days-prev-next-box {
+text-align: center;
+padding: 10px;
+color: #ccc; /* Light gray for inactive days */
+}
+
+/*end Schedule*/

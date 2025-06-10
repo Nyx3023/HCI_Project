@@ -1,0 +1,182 @@
+/*Login css*/
+/*login text*/
+/* Mission and Vision text styling */
+.login-text {
+    display: absolute;
+    top: 50%;
+    padding: 2rem;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 15rem;
+  }
+  
+  .mission-vision h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--purple); /* You can use any color you prefer */
+    margin-bottom: 1rem;
+  }
+  
+  .mission-vision p {
+    font-size: 1.1rem;
+    color: var(--black);
+    line-height: 1.6;
+  }
+  
+  .mission-vision {
+    padding: 1rem;
+    text-align: justify;
+  }
+  
+  @media (max-width: 768px) {
+    .Parent-login {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .login-text {
+      width: 100%;
+      top: 30%;
+      margin-right: 0rem;
+      margin-left: 0rem;
+    }
+  
+    .form-container {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+  
+    .mission-vision {
+      text-align: center;
+    }
+  
+    .login-form .box {
+      width: 80%;
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 16px;
+    }
+  
+    .logo1 {
+      margin: 0 auto;
+    }
+  }
+  
+  /* login logo*/
+  .logo-login {
+    text-align: center; /* Center the logo horizontally */
+    margin-bottom: 20px; /* Add some space below the logo */
+  }
+  
+  .logo1 {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Same as width for a circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits the circle */
+    border: 2px solid #000; /* Optional: Add a border */
+  }
+  /*Center*/
+  .Parent-login {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-image: url('../assets/cvsubg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+  }
+  
+  .form-container {
+    background-color: var(--white);
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: 2px solid #000;
+    background-color: white;
+  }
+  
+  .form-container h4 {
+    font-size: 1.8rem;
+    color: var(--black);
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-container input[type="email"],
+  .form-container input[type="password"],
+  .form-container input[type="number"],
+  .form-container input[type="number"] {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: var(--light-bg);
+    color: var(--black);
+    margin-top: 1rem;
+  }
+  
+  .form-container input:focus {
+    outline: none;
+    border-color: var(--black);
+    box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.2);
+  }
+  
+  .form-container .label {
+    text-align: left;
+    margin: 10px 0;
+  }
+  
+  .Botton:hover {
+    background-color: #45a049;
+  }
+  
+  .form-container a {
+    display: inline-block;
+    color: var(--purple);
+    font-size: 0.9rem;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .form-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .Botton {
+    display: inline-block;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    color: var(--white);
+    background-color: var(--purple);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+  .Botton {
+    background-color: #9feb7c;
+  }
+  
+  .Botton {
+    width: 100%;
+    gap: 3rem;
+  }
+  /*end login css*/
